@@ -1,0 +1,55 @@
+Pytanie 1.
+Która z poniższych odpowiedzi zawiera NAJLEPSZĄ definicję poziomu ryzyka?
+a) Poziom ryzyka oblicza się poprzez zsumowanie prawdopodobieństw wystąpienia
+wszystkich sytuacji problemowych oraz wynikających z nich szkód finansowych.
+b) Poziom ryzyka szacuje się poprzez pomnożenie prawdopodobieństwa wystąpienia
+zagrożenia dotyczących systemu i szansy wywołania przez to zagrożenie strat
+finansowych.
+c) Poziom ryzyka oblicza się jako kombinację prawdopodobieństwa wystąpienia
+niepożądanego zdarzenia i przewidywanego wpływu tego zdarzenia.
+d) Poziom ryzyka to suma wszystkich potencjalnych zagrożeń dotyczących systemu
+pomnożona przez sumę wszystkich potencjalnych strat związanych z tym systemem. 
+
+Pytanie 2.
+Która z poniższych odpowiedzi jest NAJPRAWDOPODOBNIEJ przykładem ryzyka
+PRODUKTOWEGO?
+a) Oczekiwane zabezpieczenia mogą nie być obsługiwane przez funkcjonalności
+architektury systemu.
+b) Programiści mogą nie mieć czasu na usunięcie wszystkich defektów wykrytych przez
+zespół testowy.
+c) Przypadki testowe mogą nie zapewnić pełnego pokrycia wyspecyfikowanych
+wymagań.
+d) Środowisko do testów wydajnościowych może nie być gotowe przed terminem
+dostarczenia produktu.
+
+Pytanie 3.
+Która z poniższych odpowiedzi NAJPRAWDOPODOBNIEJ NIE JEST przykładem POPRAWNEGO
+wpływu analizy ryzyka produktowego na testowanie?
+a) Rozwiązywanie problemów z zabezpieczeniami w ostatnim projekcie zajęło dużo
+czasu, dlatego tym razem testowanie zabezpieczeń ma się odbyć przed innymi
+czynnościami testowymi.
+b) Podczas testowania stwierdzono, że jakość modułu sieciowego jest wyższa od
+spodziewanej, w związku z czym w tym obszarze zostaną wykonane dodatkowe testy.
+c) W poprzednim systemie użytkownicy mieli problemy z interfejsem użytkownika,
+w związku z czym zaplanowano dodatkowe testowanie użyteczności nowego
+systemu.
+d) Czas ładowania stron ma zasadnicze znaczenie dla sukcesu nowej witryny
+internetowej, w związku z czym w ramach projektu zatrudniono eksperta ds.
+testowania wydajnościowego. 
+
+Pytanie 4.
+Rozważ poniższą listę niepożądanych wyników, które mogą wystąpić jako ryzyka
+produktowe i projektowe.
+A. Nieprawidłowe sumy w raportach.
+B. Zmiany w kryteriach akceptacji podczas testów akceptacyjnych.
+C. Użytkownicy uważają miękką klawiaturę za zbyt trudną do użycia.
+D. System reaguje zbyt wolno na wprowadzanie danych przez użytkownika podczas
+wpisywania warunku wyszukiwania.
+E. Testerzy nie mogą zgłaszać wyników testów podczas codziennych spotkań (standup meeting).
+
+Które z poniższych odpowiedzi poprawnie klasyfikuje te czynniki jako ryzyka projektowe
+i ryzyka produktowe?
+a) Ryzyko produktowe: B, E Ryzyko projektowe: A, C, D
+b) Ryzyko produktowe: A, C, D Ryzyko projektowe: B, E
+c) Ryzyko produktowe: A, C, D, E Ryzyko projektowe: B
+d) Ryzyko produktowe: A, C Ryzyko projektowe: B, D, E. 
