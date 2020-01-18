@@ -1,1 +1,3 @@
-readme do mojego brancha
+Kurs Testera Oprogramowania :o
+
+Uczestnicy:
