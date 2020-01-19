@@ -16,29 +16,29 @@ wykonawca: SInQ Media Group
 Constrains (ograniczenia) jakie widzimy problemy w proesie testowym. Co nas ogranicza/utrudnia testy (ale nie Ryzyka). 
 Tutaj omawiamy kwestie zasobów tak ludzkich jak i sprzętowych
 
-        problemy interpersonalne, ograniczona baza sprzetowa (brak innych systemów), dane testowe
+        problemy interpersonalne, ograniczona baza sprzetowa (brak innych systemów - brak systemów do virtualizacji), niska jakość danych testowych z poprzednich testów/wersji
 
 Test Phases/types/levels - opisac fazy i poziomy testów z informacją kto jest odpowiedzialny za dany poziom testów/testerów. 
 Jakiej technologi używamy
 
-        Prowadzone będą testy eksploracyjne, w oparciu o ryzyko oraz systemowe oparte o warunki brzegowe i klasy równoważności.
+        Prowadzone będą testy eksploracyjne (Pan A, Pani Aa), w oparciu o ryzyko oraz systemowe (cały zespół), oparte o warunki brzegowe i klasy równoważności (Pan A i Pani Aa)
         Automatyzacja TOSCA, Selenium Web Server - testowanie formularzy
 
 
 Security considerations (kwestie bezpieczeństwa). Jak zostaną zaadreswoane kwestie bezpieczeństwa aplikacji. 
 Od informacji o logowaniu (dostępy/zezwolenia) poprzez informacje o bezpieczeństwie przechowywania danych
 
-        Nie wymaga logowania, dostępny dla każdego. Po zapisaniu wysyłany na nasz serwer - trash
+        Nie wymaga logowania, dostępny dla każdego. Po zapisaniu wysyłany na nasz serwer - trash, szyfrowane, bezpieczne połączenie HTTPS 
 
 Scope (zakres testów)co ma być przetostowane - a co nie (np tylko testy czarno skrzynkowe a nie biało/ czy będą review i testy statyczne)
 
-        Manualne, czarnoskrzynkowe pól input - 255 znaków, pól text 1500 znakó, tylko znaki polskie, brak znków specjalnych, SQL Injection itp.
-            buttony kasuj, wyslij
+        Manualne, czarnoskrzynkowe testy pól input - 255 znaków, pól text 1500 znaków, tylko znaki polskie (diakrytyczne), brak znków specjalnych, SQL Injection itp.
+            buttony kasuj, wyslij - funkcjonalność i działanie (nie zapisywanie "versji" testowej)
 
 Entry/Exit criteria (kryteria przechodzenia między fazami) - czy zakładamy jakiś poziom pokrycia testów nim przejdziemy do kolejnej fazy.
 Czy błędy musza być naprawione między fazami (albo czy tylko te o konkretnym priorytecie).
 
-        Do naprawienia jest 5 defektów poziomu/priorytetu niskiego. 100% testów powyżej normal PASS
+        Do naprawienia jest 5 defektów poziomu/priorytetu niskiego. 100% testów powyżej poziomu normal PASS
 
 Test data (dane testowe) - jakie będą wykorzystane - czy wygenerowane - czy skopiowane z produkcji, itp.
 
