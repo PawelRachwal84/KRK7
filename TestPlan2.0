@@ -1,0 +1,77 @@
+Overview (ogólny przegląd) - ogólny opis projektu i tworzenia strategii testowej/planu testów. Informacje kto jest odpowiedzialny za stworzenie dokumentu.
+
+        LestLink Michał Zaitz
+
+References (referencje/odniesiania/materiały źródłowe) - Gdzie znajdują sie wymagania
+
+        Wymagania w word: wymagania1.0.doc
+
+Approach (ogólne podejście do testów) - czy plan jest stworzony per projekt czy moze per iteracja/sprint/faza
+Informacje o poziomach testow (czy są testy jednostkowe, integracyjne, etc.)
+Kto jest odpowiedzialy za testy (firma zewnętrzna, wydzielona częśc naszej organizacji a może testują developerz/analitycy)
+
+        Faza 2 - stworzenie formularza, info o powiomie testów manualnych, będą system, akceptacyjne i integracyjne testy, SInQ Media Group
+
+Constrains (ograniczenia) jakie widzimy problemy w proesie testowym. Co nas ogranicza/utrudnia testy (ale nie Ryzyka). 
+Tutaj omawiamy kwestie zasobów tak ludzkich jak i sprzętowych
+
+        problemy interpersonalne, ograniczona baza sprzetowa (brak innych systemów), dane testowe
+
+Test Phases/types/levels - opisac fazy i poziomy testów z informacją kto jest odpowiedzialny za dany poziom testów/testerów. 
+Jakiej technologi używamy
+
+        Prowadzone będą testy eksploracyjne, w oparciu o ryzyko oraz systemowe oparte o warunki brzegowe i klasy równoważności.
+        Automatyzacja TOSCA, Selenium Web Server - testowanie formularzy
+
+
+Security considerations (kwestie bezpieczeństwa). Jak zostaną zaadreswoane kwestie bezpieczeństwa aplikacji. 
+Od informacji o logowaniu (dostępy/zezwolenia) poprzez informacje o bezpieczeństwie przechowywania danych
+
+        Nie wymaga logowania, dostępny dla każdego. Po zapisaniu wysyłany na nasz serwer - trash
+
+Scope (zakres testów)co ma być przetostowane - a co nie (np tylko testy czarno skrzynkowe a nie biało/ czy będą review i testy statyczne)
+
+        Manualne, czarnoskrzynkowe pól input - 255 znaków, pól text 1500 znakó, tylko znaki polskie, brak znków specjalnych, SQL Injection itp.
+            buttony kasuj, wyslij
+
+Entry/Exit criteria (kryteria przechodzenia między fazami) - czy zakładamy jakiś poziom pokrycia testów nim przejdziemy do kolejnej fazy.
+Czy błędy musza być naprawione między fazami (albo czy tylko te o konkretnym priorytecie).
+
+        Do naprawienia jest 5 defektów poziomu/priorytetu niskiego. 100% testów powyżej normal PASS
+
+Test data (dane testowe) - jakie będą wykorzystane - czy wygenerowane - czy skopiowane z produkcji, itp.
+
+        generatory.it kreatywność testerów, z poprzednich iteracji
+        
+Test tools - opis narzędzi testowych wykorzystanych w projekcie
+
+        GitLab - kontrola wersji, JIRA - raportowanie błędów na projekcie, interface białkowy - wykonanie manualne, Selenium - automatyzacja, Testlink - projektowanie PT, , TOSCA - z ciekawości
+
+Environments (środowiska) - opis/oznaczenia środowisk - a znaczenie jeśłi w filie korzysta się z wielu albo są dependencje między systemami.
+        R&D, QA, PreProd
+        
+
+Team management
+Roles and Responsibilities (role i obowiązki) - opis kto jest kim i co ma robić 
+Test Deliverables - dokuentacja którą będziemy dostarczać. Oraz np jakie spotkania/raporty będą wysyłane w trakcie testó
+Test Locations - jeśli rozproszone zespoły - gdzie będą odbywać sie testy. Ale też czy ay Test Lab czy każdy ze swojego desktopu
+Contacts
+
+        Weronika - tester manualny
+        PanFrod - tester automatyczny
+  
+  DOKUMENTACJA
+        Tygodniowy PASS/FAILED report
+
+  LOKALIZACJA
+        The Internet - Indie, Polska, Ukraina, Kazachstan - the gratest country in the world!
+        TestLab, HalwayLab
+
+Schedule - daty i terminy dostarczenia testów
+    
+        20:00 19-01-2020 - 0:00 19.03.2020
+        
+Risks - ryzyka projektowe i produktowe z propozycją ich zmniejszenia/wyeliminowania.
+        Sytuacja geopolityczna we schodnich indiach
+        Plany urlopowe
+        Mitygacje tu również jakieś są
