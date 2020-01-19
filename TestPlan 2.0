@@ -1,0 +1,81 @@
+    Overview (ogólny przegląd) - ogólny opis projektu i tworzenia strategii testowej/planu testów. 
+    Informacje kto jest odpowiedzialny za stworzenie dokumentu.
+Manualne przetestowanie formularza 
+http://kurshtml.edu.pl/html/przyklad,formularze.html
+
+    References (referencje/odniesiania/materiały źródłowe) - Gdzie znajdują sie wymagania
+Wymagania opisane są w kontrakcie, niestety jedynie w języku mandaryńskim. Niespójna z raportami z rozmów face-to-face
+
+    Approach (ogólne podejście do testów) - czy plan jest stworzony per projekt czy moze per iteracja/sprint/faza
+    Informacje o poziomach testow (czy są testy jednostkowe, integracyjne, etc.)
+Testy zewnętrzne manualne, akceptacyjne beta. Big Bang.
+
+    Constrains (ograniczenia) jakie widzimy problemy w proesie testowym. Co nas ogranicza/utrudnia testy (ale nie Ryzyka). 
+Niskie finansowanie, morale zespołum. Mały dostęp do testaliów.
+Środowisko testerskie międzynarodowe - kłopoty z komunikacją i kontat ograniczony tylko do kontaktu mailowego
+Inne projekty i zmniejszona dostępność zasobów ludzkich
+
+    Test Phases/types/levels - opisac fazy i poziomy testów z informacją kto jest odpowiedzialny za dany poziom testów/testerów. 
+    Jakiej technologi używamy
+W oparciu o ryzyko, metodą czarnoskrzynkową, manualnie. 
+Jira do organizacji projektu.
+TestLink - projektowanie przypadków testowych
+Selenium IDE - do automatyzacji regresji po release fixów
+
+    Security considerations (kwestie bezpieczeństwa). Jak zostaną zaadreswoane kwestie bezpieczeństwa aplikacji. 
+    Od informacji o logowaniu (dostępy/zezwolenia) poprzez informacje o bezpieczeństwie przechowywania danych
+Brak konieczności logowania i posiadania hasła; SQL injection na potrzeby wykresu z przeprowadzonych ankiet - szyfrowane 
+połączenie HTTPS
+
+    Scope (zakres testów)co ma być przetostowane - a co nie (np tylko testy czarno skrzynkowe a nie biało/ 
+    czy będą review i testy statyczne)
+Testy czarnoskrzynkowe, manualne, eksploracyjne.
+Inputy – 255znaków
+Obsługa polskich liter 
+Text box – 1500znaków
+Radiobuttony – pojedyncze
+Checkboxy – możliwość wyboru kilku opcji
+
+    Entry/Exit criteria (kryteria przechodzenia między fazami) - 
+    czy zakładamy jakiś poziom pokrycia testów nim przejdziemy do kolejnej fazy.
+Brak priorytetu jakiegokolwiek z testów. Nie ma konkretnych wymagań dot. przechodzenia między fazami.
+Exit criteria to pozytywne przejście wszystkich testów i export adekwatnego wykresu
+
+    Test data (dane testowe) - jakie będą wykorzystane - czy wygenerowane - czy skopiowane z produkcji, itp.
+    Generatory danych, dane skopiowane z poprzednich iteracji, w dużej mierze brak danych testowych i konieczność wygenerowania ich samemu
+    Test tools - opis narzędzi testowych wykorzystanych w projekcie
+testy manualne, 
+Selenium IDE (przetestowanie automatyczne formularza), 
+TestLink (raportowanie przypadków testowych i ich wykonania), 
+Jira (project management)
+
+    Environments (środowiska) - opis/oznaczenia środowisk - a znaczenie jeśłi w firie korzysta się z wielu albo są dependencje między 
+    systemami.
+środowisko własne testera
+github.com
+
+    Team management: 
+SDA KRK7 test lider
+
+    Roles and Responsibilities (role i obowiązki) - opis kto jest kim i co ma robić: 
+Testrzy powinni  przetestować formularz i wykonać raport z testów; 
+Lider zespołu testerskiego powinien ocenić kompletność  wykonanych testów.
+
+    Test Deliverables - dokuentacja którą będziemy dostarczać. Oraz np jakie spotkania/raporty będą wysyłane w trakcie testów
+    Raporty z wykonania testów… ? Test Locations - jeśli rozproszone zespoły - gdzie będą odbywać sie testy. 
+    Ale też czy ay Test Lab czy każdy ze swojego desktopu
+Kraków, Czaplińskiego 5
+
+  Contacts: 
+ludzie z ławki obok
+
+
+    Schedule - daty i terminy dostarczenia testów
+19.01.2020 do godziny 15
+
+
+    Risks - ryzyka projektowe i produktowe z propozycją ich zmniejszenia/wyeliminowania.
+Niska responsywność testerów i problemy z komunikacją
+Sezon urlopowy
+Ryzyko komunikacyjne z klientem
+
