@@ -1,0 +1,35 @@
+Overview: Sprawdzenie gustu muzycznego wśród informatyków, odpowiedzialna jest W. Irzeńska. PRzypadki testowe tworzone na testlinku.
+
+References: wymagania są w przypadku testowym oraz w dokumentacji dostarczonej przez klienta w pliku wymagania.pdf
+
+Approach: Faza druga: stworzone do pracy w springach, testy manualne, jednostkowe, modułowe oraz systemowe. Odpowiedzialna jest firma Test
+
+Constrains: ogranicza nas brak ludzi i niewystarczający sprzęt (stare komputery z niewystarczającym systemem)
+
+Test phase/types/level: testy eksploracyjne, z użyciem analizy wartości brzegowych, automatyzowane w Selenium.
+
+Security considerations: Nie wymaga logowania; odpowiedzi zostaną wysłane na nasze serwery gdzie dostęp będą mieli tylko analitycy 
+
+Scope: inputy mogą mieć maks 255 znaków a komentarz maks 500 znaków, funkcjonalność przycisków wyślij formularz, wyczyść dane, obsługa polskich znaków oraz znaków specjalnych
+
+Entry/Exit criteria: żeby przejść do następnej fazy muszą byc naprawione wszystkie defekty o wysokim i średnim priorytecie
+
+Test data: wygenereowane z generator.it lub bazujące na kreatywności naszych testerów
+
+Test tools: interfejs białkowy, selenium ide(automatyzacja), jira(raportowanie błędów na projekcie), testlink(raportowanie przypadków testowych i wykonanie)
+
+Environments: QA, preprod.
+
+
+Team management
+
+Roles and Responsibilities
+Michał - tester manualny
+
+Test Deliverables: raporty z testów, raport pass-fail czyli stosunek passów i faili w testach
+
+Test Locations: Test lab w siedzinie firmy
+
+Schedule: dzisiaj do godziny 15
+
+Risks: dostawca komputerów pójdzie na urlop, aplikcja nie spełni oczekiwań klienta
