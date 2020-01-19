@@ -1,0 +1,30 @@
+Overwiev - Testowanie formularza do wprowadzania nowych użytkowników - odpowiedzialny jest Leader zespołu - zespół wydzielony z wewnętrzen grupy testerów
+
+References - wymagania znajdują się na serwerze firmy w pliku Word - Wymagania testowe.doc
+
+Approach -  Projekt dla poszczególnej grupy testerów (testowania strony internetowej/ testowanie wpisywania danych do formularze/ weryfikowanie czy dane zostały prawidłowo wczytane)
+
+Testy integracyjne - czy wprowadzone dane w fomularzu są prawidłowo zapuisywane w bazie danych
+
+osobna grupa testerów wewnątrz firmy
+
+Ograniczenia - mała ilośc osób/ brak czasu - 2 tygodnie do uruchomienia systemu, mało kasy, okres urlopowy, komunikacja z klientem
+
+Testy wykonujemy w programie TestLink
+
+Działamy na wewnętrznej bazie danych użytkowników – RODO
+
+Kązdy użytkownich testu ma jednakowe uprawnienia.
+
+Ograniczeni a pola INPUT do 255 znaków, tylko polskie znaki, bez cyfer, bez znaków specjalnych.
+
+automatyc=zacja w Selenium IDE
+
+Praca na śtrodowizku pre produkcyjnych i działamy na wewnętrznej bazie danych użytkowników
+
+W razie problemów zapytać Asię JJ
+
+Testerzy w polsc
+
+
+
