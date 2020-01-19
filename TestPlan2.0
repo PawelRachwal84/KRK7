@@ -11,13 +11,13 @@ Informacje o poziomach testow (czy są testy jednostkowe, integracyjne, etc.)
 Kto jest odpowiedzialy za testy (firma zewnętrzna, wydzielona częśc naszej organizacji a może testują developerz/analitycy)
 
         Faza 2.0 - stworzenie formularza rejestracji do 3 kręgu dla wtajemniczonych z uzasadnieniem, info o poziomie testów manualnych, będą system, akceptacyjne i integracyjne testy, 
-wykonawca: SInQ Media Group
+wykonawca: SInQ Media Group - niezależna firma zewnętrzna
 
 Constrains (ograniczenia) jakie widzimy problemy w proesie testowym. Co nas ogranicza/utrudnia testy (ale nie Ryzyka). 
 Tutaj omawiamy kwestie zasobów tak ludzkich jak i sprzętowych
 
         problemy interpersonalne, ograniczona baza sprzetowa (brak innych systemów - brak systemów do virtualizacji), niska jakość danych testowych z poprzednich testów/wersji
-
+        problemy z umowani, niskie zasoby
 Test Phases/types/levels - opisac fazy i poziomy testów z informacją kto jest odpowiedzialny za dany poziom testów/testerów. 
 Jakiej technologi używamy
 
@@ -47,7 +47,7 @@ Test data (dane testowe) - jakie będą wykorzystane - czy wygenerowane - czy sk
 Test tools - opis narzędzi testowych wykorzystanych w projekcie
 
         GitLab - kontrola wersji, JIRA - raportowanie błędów na projekcie, interface białkowy - wykonanie manualne, Selenium - automatyzacja, Testlink - projektowanie PT, , TOSCA - z ciekawości
-
+        Confluence - dokumentacja
 Environments (środowiska) - opis/oznaczenia środowisk - a znaczenie jeśłi w filie korzysta się z wielu albo są dependencje między systemami.
         R&D, QA, PreProd
         
