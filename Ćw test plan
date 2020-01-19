@@ -23,30 +23,34 @@ Problemy interpersonalne - ograniczony kontakt z kilentem, ograniczona baza sprz
 Test Phases/types/levels - opisac fazy i poziomy testów z informacją kto jest odpowiedzialny za dany poziom testów/testerów. 
 Jakiej technologi używamy
 
-Prowadzone będę testy eksploatacyjne, w oparciu o ryzyko oraz systemowe, oparte o warunki brzegowe
+Prowadzone będę testy eksploatacyjne, w oparciu o ryzyko oraz systemowe, oparte o warunki brzegowe, testy automatyczne - Selenium IDE - testowanie formularzy
 
 Security considerations (kwestie bezpieczeństwa). Jak zostaną zaadreswoane kwestie bezpieczeństwa aplikacji. 
 Od informacji o logowaniu (dostępy/zezwolenia) poprzez informacje o bezpieczeństwie przechowywania danych
+
+  Nie wymaga logowania, dostępny dla każdego. Po zapisaniu wysyłany na nasz serwer - trash, szyfrowane, bezpieczne połączenie HTTPS 
+
 
 Scope (zakres testów)co ma być przetostowane - a co nie (np tylko testy czarno skrzynkowe a nie biało/ czy będą review i testy statyczne)
 
 Test czarnoskrzynkowy,
 Input - max 255 znaków, obsługuje znaki diakrytyczne, brak możliwości wpisywania cyfr
-Formularz -Komentarz - max 4000 znaków, obsługuje polskie znaki specjalne
+Formularz -Komentarz - max 4000 znaków, obsługuje znaki diakrytyczne
 
 
 Entry/Exit criteria (kryteria przechodzenia między fazami) - czy zakładamy jakiś poziom pokrycia testów nim przejdziemy do kolejnej fazy.
 Czy błędy musza być naprawione między fazami (albo czy tylko te o konkretnym priorytecie).
 
+Do naprawienia jest 5 defektów poziomu/priorytetu niskiego. 100% testów powyżej poziomu normal testy zatwierdzone
 
 
 Test data (dane testowe) - jakie będą wykorzystane - czy wygenerowane - czy skopiowane z produkcji, itp.
 
-
+generatory.it kreatywność testerów, z poprzednich iteracji
 
 Test tools - opis narzędzi testowych wykorzystanych w projekcie
 
-
+GitLab - kontrola wersji, JIRA - raportowanie błędów na projekcie, Selenium - automatyzacja, Testlink - projektowanie PT,
 
 Environments (środowiska) - opis/oznaczenia środowisk - a znaczenie jeśłi w firie korzysta się z wielu albo są dependencje między systemami.
 
@@ -60,5 +64,6 @@ Schedule - daty i terminy dostarczenia testów
 
 Risks - ryzyka projektowe i produktowe z propozycją ich zmniejszenia/wyeliminowania.
 
-
+ryzyka projektowe i produktowe z propozycją ich zmniejszenia/wyeliminowania.
+        Sytuacja geopolityczna we schodnich indiach
 
