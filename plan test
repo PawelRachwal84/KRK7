@@ -1,0 +1,22 @@
+Overwiev-testowanie formularza do zbierania informacji na temat preferencji muzycznych programistów
+Osoba odpowiedzialna- Test leader- Zuzanna Koperwas
+References- podane w dokumencie wymagania.docx
+Approach- faza 2- test stworzonego formularza 
+Poziom testów- manualne i automatyczne, systemowe i akceptacyjne
+Odpowiedzialny za testy- zespół testerski w firmie
+Constrains- mała ilośc testerów, mało czasu na wykonanie
+Test Phases/types/levels - eksploracyjne, w oparciu o ryzyko, systemowe bazując na warunkach brzegowych, automatyczne- Tosca, Selenium
+Security considerations- strona nie wymaga rejestracji i logowania, dane wysyłane na serwer z dostępem dla pracowników
+Scope (zakres testów)- testy statyczne czarnoskrzynkowe 
+Entry/Exit criteria (kryteria przechodzenia między fazami) - ? 
+Test data (dane testowe) - wygenerowane z http://generatordanych.testerzy.pl/
+Test tools - testy automatyczne- Selenium, Tworzenie i raportowanie przypadków- TestLink, raportowanie blędow- JIRA 
+Environments (środowiska) - Pre Prod.
+Team management
+Roles and Responsibilities (role i obowiązki) - opis kto jest kim i co ma robić 
+Test Deliverables - raport z testów
+Test Locations - Test Lab na terenie firmy 
+
+Schedule - 15.03.18
+
+Risks- 
