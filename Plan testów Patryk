@@ -1,0 +1,77 @@
+Overview
+Badanie gustu muzycznego wśród programistów. Osoba odpowiedzialna Patryk.
+
+References
+Wymagania dot. formularza znajdują się w pliku Wym.docx załączonym do planu.
+
+Approach
+Niniejszy plan stworzony jest konkretnie do projektu FormularzMuza.
+Zostaną przeprowadzone testy funkcjonalne, które sprawdzą poprawność działania 
+formularza oraz testy niefunkcjonalne, sprawdzające przyjazność interfejsu 
+graficznego formularza dla użytkownika. Za testy odpowiedzialny jest 
+dział QA Ekipa wewnątrz firmy ABC Inc.
+
+Constrains
+Do testów będzie zaangażowanych trzech testerów i jeden kierownik, co powinno
+wystarczyć do odpowiedniej ilości testów. 
+
+Test phases/types/level
+Na początku zostanie przygotowany plan testów, zawierający scenariusze i 
+przypadki testowe. Przygotowanie przez cały zespół, odpowiedzialny za 
+plan Jan Kowalski (kierownik testów). Testy będą wykonywane na poziomie 
+systemowym.
+
+Security considerations
+Dane wprowadzane przez testerów będą przechowywane na wewnętrznych serwerach
+firmy. Dla bezpieczeństwa przesyłu danych, będą one przesyłane za pomocą
+protokołu HTTPS.
+
+Scope (zakres testów)
+Przed rozpoczęciem wykonywanie przypadków testowych nastąpi krótki
+przegląd nieformalny przygotowanej dokumentacji. Następnie wykonane 
+zostaną testy czarnoskrzynkowe badanego formularza.
+
+Entry i exit criteria
+Zaplanowane testy powinny pokryć 90% działania funkcjonalności zgodnie
+z wymaganiami. 
+
+Test data (dane testowe)
+Dla wygenerowania danych testowych do pól "Imię", "Nazwisko" i "Komentarz"
+zostanie wykorzystany losowy generator ciągów tekstowych TextGenerator2.0.
+
+Test tools
+Do zapisania zestawu testów zostanie użyty program JIRA. Do szczegółowego
+opisania przypadków testowych wraz z krokami i wykonywania ich zostanie
+wykorzystany program TestLink.
+
+Environments
+Formularz będzie testowany na środowisku testowym firmy TestEnvQA, do 
+którego dostęp mają tylko testerzy pracujący w dziale QA Ekipa. 
+
+Team management
+Roles and Responsibilities
+Jan Kowalski - kierownik testów; zarządzanie procesem testowym, przydzielanie
+scenariuszy testowych do testerów.
+Jan Nowak - tester; wykonywanie scenariuszy testowych i raportowanie wyników
+do kierownika testów.
+Janina Nowak - tester; wykonywanie scenariuszy testowych i raportowanie wyników
+do kierownika testów.
+John Doe - tester pracujący zdalnie w USA; wykonywanie scenariuszy testowych i 
+raportowanie wyników kierownika testów.
+
+Test Deliverables
+Po zaplanowaniu i implementacji testów przygotowany będzie dokument
+opisujący proces testowy. Na etapie wykonywania testów, pod koniec każdego 
+dnia roboczego będzie dostarczany dzienny raport z wykonania testów. 
+Po wykonaniu wszystkich zaplanowanych testów powstanie raport końcowy oraz
+odbędzie się spotkanie podsumowujące.
+
+Test Locations
+Testy w większości będą się odbywać w siedzibie firmy ABC Inc., w 
+open-space działu QA Ekipa. Jeden z testerów pracuje zdalnie z USA.
+
+Schedule
+19.01.2020 do 15:00 - dostarczenie kompletnego planu testów wraz ze
+scenariuszami i przypadkami testowymi.
+30.01.2020 do 23:59 - dostarczenie raportu końcowego.
+31.01.2020 12:00 - Spotkanie podsumowujące.
