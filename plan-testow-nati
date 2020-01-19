@@ -1,0 +1,58 @@
+== Overview == 
+Stworzenie formularza do zbadania muzycznych preferencji programistów. Test leader: Natalia Kniat
+
+== References == (referencje/odniesiania/materiały źródłowe) - Gdzie znajdują sie wymagania
+Wymagania znajdują się w domumencie Word na dysku sieciowym, nazwa pliku wymagania2.0.docx
+
+== Approach ==
+Faza druga projektu - stworzenie formularza. Wykonujemy testy manulane techniką od góry do dołu.
+Nie testejuemy DB, ale czy się formularz wysyła. 
+
+== Constrains == 
+Brak danych testowych. 
+Zespół międzynarodowy. 
+Brak jasnych umów.
+Dostępny jeden tester, reszta na L4.
+
+== Test Phases/types/levels ==
+Testy oparte na analizie wartości brzegowych i klas równoważności.
+Testy automatyczne z wykorzystaniem Sellenium na polach wyboru artystów i albumów. 
+
+== Security considerations ==
+NIE WYMAGA LOGOWANIA. 
+Chcemy udostepnyc kazdemu, nie wymaga logowania, po zapisaniu bedzie wysyłany na serwery i tylko nasi specjalnisci beda widzec odpowiedzi
+
+== Scope ==
+Wykonujemy testy czarnoskrzynkowe
+ZAŁOŻENIA:
+Pola input mają 250 znaków
+Pola tekstowe mają 1500 ZNAKÓW
+Tylko znaki polskie diakrytyczne,
+Pole : wyczysc dane, wyslij formularz - funkcojonalnosci przycisków
+
+== Entry/Exit criteria ==
+Wszystkie defekty z poprzedniej wersji zostały naprawione.
+
+== Test data (dane testowe) ==
+
+== Test tools ==
+Sellenium, Jira (do robienia ticketów), testlink (raportowanie przypadków testowych)
+
+== Environments ==
+prePROD
+
+== Team management ==
+Wsółpracownicy:
+	Zuza - tester
+	Paweł - PM
+Dokumentacja: raporty tygodniowe PASS_FAILD_RAPORRT
+
+
+== Schedule == 
+Zakończenie testów do dnia 30.01.2020
+
+== Risks == 
+Może się zdażyć, że nasz jedyny tester Stefan też się rozchoruje.
+
+
+
