@@ -1,4 +1,4 @@
-PYTANIE 1
+PYTANIE 1 D
 Które z poniższych zadań jest podstawowym działaniem wykonywanym na etapie analizy
 testów zgodnie z procesem testowym?
 a) Zidentyfikowanie wszelkich niezbędnych narzędzi i elementów infrastruktury.
@@ -6,7 +6,7 @@ b) Utworzenie zestawów testów z procedur testowych.
 c) Przeanalizowanie zdobytych doświadczeń w celu udoskonalenia procesu.
 d) Dokonanie oceny podstawy testów pod kątem testowalności.
 
-PYTANIE 2
+PYTANIE 2 B 
 Testujesz nową wersję oprogramowania do ekspresu do kawy. Urządzenie może parzyć
 różne rodzaje kawy w oparciu o cztery różne parametry: wielkość napoju, ilość cukru,
 dodatek mleka i rodzaj syropu. Kryteria są następujące:
@@ -29,7 +29,7 @@ b) Dane identyfikujące testowany ekspres.
 c) Status defektu.
 d) Pomysły dotyczące usprawnienia przypadku testowego.
 
-PYTANIE 3
+PYTANIE 3 D
 Która z poniższych korzyści może NAJPRAWDOPODOBNIEJ wynikać z automatyzacji
 testowania?
 a) Łatwość tworzenia testów regresji.
@@ -38,7 +38,7 @@ c) Łatwość projektowania testów na potrzeby testowania zabezpieczeń.
 d) Łatwość wykonywania testów regresji. 
 
 
-PYTANIE 4
+PYTANIE 4 d
 Które narzędzie testowe charakteryzuje się poniższymi cechami?
 1. Wspomaganie zarządzania testami i procesem testowania.
 2. Wspomaganie testowania statycznego.
@@ -56,7 +56,7 @@ c) 1A, 2C, 3D, 4B
 d) 1B, 2C, 3A, 4D 
 
 
-PYTANIE 5
+PYTANIE 5 A
 Która z poniższych odpowiedzi zawiera NAJBARDZIEJ PRAWDOPODOBNE uzasadnienie
 przeprowadzenia projektu pilotażowego w związku z wdrożeniem w organizacji nowego
 narzędzia?
@@ -64,7 +64,7 @@ a) Konieczność ustalenia, na ile dane narzędzie jest dopasowane do istniejąc
 procesów i praktyk, oraz wskazania niezbędnych zmian.
 b) Konieczność dokonania oceny umiejętności w zakresie automatyzacji testowania oraz
 potrzeb w zakresie szkoleń, mentoringu i coachingu testerów, którzy będą używać
-tego narzędzia.
+tego narzędzia. 
 c) Potrzeba ustalenia, czy narzędzie zapewnia wymaganą funkcjonalność i nie powiela
 funkcjonalności dotychczasowych narzędzi testowych.
 d) Konieczność dokonania oceny dostawcy narzędzia pod względem oferowanych
