@@ -1,4 +1,4 @@
-PYTANIE 1 D? A?
+PYTANIE 1 D
 Które z poniższych zadań jest podstawowym działaniem wykonywanym na etapie analizy
 testów zgodnie z procesem testowym?
 a) Zidentyfikowanie wszelkich niezbędnych narzędzi i elementów infrastruktury.
@@ -29,7 +29,7 @@ b) Dane identyfikujące testowany ekspres.
 c) Status defektu.
 d) Pomysły dotyczące usprawnienia przypadku testowego.
 
-PYTANIE 3 d
+PYTANIE 3 D
 Która z poniższych korzyści może NAJPRAWDOPODOBNIEJ wynikać z automatyzacji
 testowania?
 a) Łatwość tworzenia testów regresji.
@@ -56,7 +56,7 @@ c) 1A, 2C, 3D, 4B
 d) 1B, 2C, 3A, 4D 
 
 
-PYTANIE 5 B
+PYTANIE 5 A
 Która z poniższych odpowiedzi zawiera NAJBARDZIEJ PRAWDOPODOBNE uzasadnienie
 przeprowadzenia projektu pilotażowego w związku z wdrożeniem w organizacji nowego
 narzędzia?
