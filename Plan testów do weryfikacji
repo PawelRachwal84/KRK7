@@ -1,0 +1,41 @@
+1. Overview (ogólny przegląd) - ogólny opis projektu i tworzenia strategii testowej/planu testów. Informacje kto jest odpowiedzialny za stworzenie dokumentu.
+Formularz badający preferencje muzyczne programistów. Odpowiedzialny: Joanna J.
+2. References (referencje/odniesiania/materiały źródłowe) - Gdzie znajdują sie wymagania
+Wymagania dostępne w katalogu D: Projekt Ważka>Dokumenty>Testy>Wymagania.doc
+3. Approach (ogólne podejście do testów) - czy plan jest stworzony per projekt czy moze per iteracja/sprint/faza
+Stworzony plan sprintu
+4. Informacje o poziomach testow (czy są testy jednostkowe, integracyjne, etc.)
+Testy systemowe, automatyczne, manualne; analiza wartości brzegowych, klasy równoważności, eksploracyjne, lista kontrolna
+5. Kto jest odpowiedzialy za testy (firma zewnętrzna, wydzielona częśc naszej organizacji a może testują developerz/analitycy)
+Developerzy i niezależny zespół testerski wewnątrz organizacji
+6. Constrains (ograniczenia) jakie widzimy problemy w proesie testowym. Co nas ogranicza/utrudnia testy (ale nie Ryzyka). 
+Tutaj omawiamy kwestie zasobów tak ludzkich jak i sprzętowych
+Za mało pracowników oddelegowanych do naszego projektu, dodatkowo problem w zapewnieniu sprzętu większej ilości (nowych) pracowników
+4. Test Phases/types/levels - opisac fazy i poziomy testów z informacją kto jest odpowiedzialny za dany poziom testów/testerów. Jakiej technologi używamy
+Poziom systemowy  - testy automatyczne – odpowiedzialny Michał Zeit, manualne – testy manualne – Natalia Kinat i Mateusz Styczyński;  Technologie – Selenium IDE, Postman, 
+5. Security considerations (kwestie bezpieczeństwa). Jak zostaną zaadreswoane kwestie bezpieczeństwa aplikacji. 
+Od informacji o logowaniu (dostępy/zezwolenia) poprzez informacje o bezpieczeństwie przechowywania danych
+Nie wymaga logowania, formularz dla każdego użytkownika, po zapisaniu wysyłany na nasze serwery i tylko nasi specjaliści widzą odpowiedzi
+6. Scope (zakres testów)co ma być przetostowane - a co nie (np tylko testy czarno skrzynkowe a nie biało/ czy będą review i testy statyczne)
+Czarnoskrzynkowe, oparte na doświadczeniu - input  50 znaków, tylko litery, znaki diakrytyczne pozaeuropejskie nie i znaki specjalne nie; komentarz 1500 znaków, znaki diakrytyczne pozaeuropejskie nie i znaki specjalne nie; funkcjonalności przycisków  - czy radio button przyjmuje tylko jedną opcję, czy checkbox przyjmuje więcej niż jedno zaznaczenie, czy lista rozwijalna rozwija się i przyjmuje jedną opcję wyboru (pole „jakiej przeglądarki używasz”, a lista „jakie znasz systemy operacyjne” daje opcję wyboru więcej niż jednej możliwości przy Crtl; wyczyść dane; wyślij formularz
+7. Entry/Exit criteria (kryteria przechodzenia między fazami) - czy zakładamy jakiś poziom pokrycia testów nim przejdziemy do kolejnej fazy.
+Czy błędy musza być naprawione między fazami (albo czy tylko te o konkretnym priorytecie).
+Dotychczasowe błędy high naprawione; 1 low nadal otwarty
+8. Test data (dane testowe) - jakie będą wykorzystane - czy wygenerowane - czy skopiowane z produkcji, itp.
+Wygenerowane lgeneratory.IT ub wyobraźnia testerów :D
+9. Test tools - opis narzędzi testowych wykorzystanych w projekcie
+Jira utrzymanie przypadków testowych, Selenium IDE do nagrywania testów, Postman API
+10. Environments (środowiska) - opis/oznaczenia środowisk - a znaczenie jeśłi w firie korzysta się z wielu albo są dependencje między systemami.
+Preproduction
+11. Team management. Roles and Responsibilities (role i obowiązki) - opis kto jest kim i co ma robić
+Paweł Rachwał PM;  Michał Zeit, manualne – testy manualne – Natalia Kinat i Mateusz Styczyński
+12. Test Deliverables - dokuentacja którą będziemy dostarczać. Oraz np jakie spotkania/raporty będą wysyłane w trakcie testó
+Confluence
+13. Test Locations - jeśli rozproszone zespoły - gdzie będą odbywać sie testy. Ale też czy ay Test Lab czy każdy ze swojego desktopu
+14. TestLab
+15. Contacts
+Paweł Rachwał PM, p. 512
+16. Schedule
+3.02. - 28.02.2020
+17. Risks - ryzyka projektowe i produktowe z propozycją ich zmniejszenia/wyeliminowania.
+Projektowe okres chorobowy, ferie – wysoka absencja – trzeba zebrać wsparcie z innych działów
